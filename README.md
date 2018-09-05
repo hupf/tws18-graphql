@@ -14,16 +14,17 @@ Building a GraphQL service with Node.js:
 1. [Angular App with the Apollo Client](06_apollo.md)
 1. [Subscriptions](07_subscriptions.md)
 
-Further topics and exercises:
+Further topics:
 
-* [Fragments](https://graphql.github.io/learn/queries/#fragments) for reusable units in queries
+* Use [Fragments](https://graphql.github.io/learn/queries/#fragments) for reusable units in queries
 * Rewrite your GraphQL.js schema in JavaScript using [graphql/type](https://graphql.github.io/graphql-js/type/)
-* [Authorization](https://graphql.org/learn/authorization/)
-* [Pagination](https://graphql.org/learn/pagination/)
-* [Caching](https://graphql.org/learn/caching/)
-* Using the [Apollo Client](https://www.apollographql.com/client) together with your favorite JavaScript framework
-* Building a GraphQL service with Java: https://graphql.org/code/#java
-* Building a GraphQL service with Ruby on Rails: https://graphql.org/code/#ruby
+* Learn about [Authorization](https://graphql.org/learn/authorization/)
+* Learn about [Pagination](https://graphql.org/learn/pagination/)
+* Learn about [Caching](https://graphql.org/learn/caching/)
+* Use the [Apollo Client](https://www.apollographql.com/client) together with your favorite JavaScript framework
+* Build a GraphQL service with Java: https://graphql.org/code/#java
+* Build a GraphQL service with Ruby on Rails: https://graphql.org/code/#ruby
+* Add a GraphQL API to an existing project
 
 Resources:
 
