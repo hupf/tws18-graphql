@@ -58,12 +58,28 @@ mutation {
 }
 ```
 
+## Input type
+
+Instead of passing single values, you can define an input type:
+
+```
+input UserInput {
+  name: String
+}
+
+type Mutation {
+  createUser(user: UserInput): User
+}
+```
+
+Like this, the resolver will receive an object matching this input type.
+
 ## Exercise: Mutation endpoint
 
 * Add a mutation endpoint to your schema
 * Implement a resolver function that adds objects to the collection.
 * Test it by executing a mutation query
 
-## Exercise: Input object type
+## Exercise: Input type
 
-Adjust the mutation endpoint to accept a input object type.
+Adjust you mutation endpoint to accept an input type.
