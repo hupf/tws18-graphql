@@ -7,7 +7,7 @@ As a prepration (if not already done), add an `id` field of type `ID` to your li
 In GraphQL, every field and nested object can get its own set of arguments. To use arguments, you have to:
 
 * Define the accepted arguments in the schema.
-* Extend the resolver function to receive an `args` object.
+* Extend the resolver function to receive an object containing the endpoint's arguments.
 
 Let's say we have the following schema:
 
@@ -46,6 +46,7 @@ See also: [Passing Arguments](https://graphql.github.io/graphql-js/passing-argum
 
 * Extend your schema to accept an argument that filters the list of objects.
 * Pass an argument in the query.
+* See what happens if you don't pass an argument in the query (see [Non-Null](https://graphql.github.io/learn/schema/#lists-and-non-null))
 
 ## Exercise: Option argument
 

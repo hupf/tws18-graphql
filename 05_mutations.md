@@ -2,7 +2,7 @@
 
 # Mutations
 
-Apart from the `query` type, a GraphQL service can optionally provide a `mutation` type to allow to modify data. The separation between these two types is pure convention (just like avoiding to modify data in `GET` requests). Technically any query could be implemented to modify data.
+Apart from the `query` type, a GraphQL service can optionally provide a `mutation` type to allow to modify data. The separation between these two types is pure convention (just like avoiding to modify data in HTTP `GET` requests). Technically any query could be implemented to modify data.
 
 Again, assume having the following schema:
 
@@ -48,7 +48,7 @@ const resolvers = {
 };
 ```
 
-Finally let's execute a mutation query, creation a new entry:
+Finally let's execute a mutation query to create a new entry:
 
 ```
 mutation {
@@ -57,6 +57,12 @@ mutation {
   }
 }
 ```
+
+## Exercise: Mutation endpoint
+
+* Add a mutation endpoint to your schema
+* Implement a resolver function that adds objects to the collection.
+* Test it by executing a mutation query
 
 ## Input type
 
@@ -74,11 +80,7 @@ type Mutation {
 
 Like this, the resolver will receive an object matching this input type.
 
-## Exercise: Mutation endpoint
-
-* Add a mutation endpoint to your schema
-* Implement a resolver function that adds objects to the collection.
-* Test it by executing a mutation query
+_Hint:_ The input type differs probably from the query type. E.g. the `UserInput` in this example does not allow to set an `id`.
 
 ## Exercise: Input type
 

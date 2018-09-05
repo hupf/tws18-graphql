@@ -2,7 +2,7 @@
 
 ## Content
 
-* [Introduction](https://slides.com/hupf/tws18-graphql/)
+[Introduction](https://slides.com/hupf/tws18-graphql/)
 
 Building a GraphQL service with Node.js:
 

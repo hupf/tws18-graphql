@@ -30,7 +30,7 @@ server.listen(PORT, () => {
 });
 ```
 
-The option `graphiql: true` will enable the [GraphiQL](https://github.com/graphql/graphiql) in-browser IDE for exploring GraphQL.
+The `graphiql: true` option will enable the [GraphiQL](https://github.com/graphql/graphiql) in-browser IDE for exploring GraphQL.
 
 Now start the server by launching the script:
 
@@ -40,7 +40,7 @@ node index.js
 
 And visit http://localhost:3000/graphql in your web browser, this should display the GraphiQL interface.
 
-_Hint:_ On the top right of the screen is a "Docs" link, that allows you to browse the schema definition.
+_Hint:_ On the top right of the screen is a "Docs" link which allows you to browse the schema definition.
 
 _Hint:_ From now on, remember to restart the server when making any changes on the file.
 
