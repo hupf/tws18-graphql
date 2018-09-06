@@ -16,6 +16,8 @@ Building a GraphQL service with Node.js:
 
 Further topics:
 
+* Resolvers for nested objects
+* How to avoid N+1 queries with Batching
 * Use [Fragments](https://graphql.github.io/learn/queries/#fragments) for reusable units in queries
 * Rewrite your GraphQL.js schema in JavaScript using [graphql/type](https://graphql.github.io/graphql-js/type/)
 * Learn about [Authorization](https://graphql.org/learn/authorization/)

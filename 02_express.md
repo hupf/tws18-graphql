@@ -14,12 +14,12 @@ Remove the `query` variable definition and the `graphql(schema, query, resolvers
 
 ```
 const express = require('express');
-const graphqlHttp = require('express-graphql');
+const graphqlHTTP = require('express-graphql');
 
 const PORT = process.env.PORT || 3000;
 const server = express();
 
-server.use('/graphql', graphqlHttp({
+server.use('/graphql', graphqlHTTP({
   schema,
   graphiql: true,
   rootValue: resolvers
