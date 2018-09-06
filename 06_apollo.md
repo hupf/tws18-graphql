@@ -57,7 +57,19 @@ npm start
 
 When now opening the app in the browser you should see a test page: http://localhost:4200/
 
-## Exercise
+## Exercise: Query and render data
 
 * Check out the example component in the [Queries](https://www.apollographql.com/docs/angular/basics/queries.html) section of the official Apollo Client documentation.
 * Create an Angular component that requests data from your GraphQL service and renders it.
+
+## Exercise: Use AsyncPipe
+
+If no already done, try to rewrite your component to [use Angular's AsyncPipe](https://www.apollographql.com/docs/angular/basics/queries.html#select-pipe) to render the result from the GraphQL query.
+
+## Exercise: Mutation
+
+Add a form and [execute a mutation query](https://www.apollographql.com/docs/angular/basics/mutations.html) to write data from your Angular app.
+
+## Exercise: Query service
+
+Simplify your component by introducing a [query service](https://www.apollographql.com/docs/angular/basics/services.html#Query) to fetch the data.
